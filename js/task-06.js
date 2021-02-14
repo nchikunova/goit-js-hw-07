@@ -11,3 +11,11 @@ function onInputBlur() {
     inputEl.classList.add('invalid');
   }
 }
+
+// Реффакторинг тернарный оператор
+
+// function onInputBlur(event) {
+//   inputEl.value.length === inputValidLength
+//     ? inputEl.classList.remove('invalid') & inputEl.classList.add('valid')
+//     : inputEl.classList.remove('valid') & inputEl.classList.add('invalid');
+// }
